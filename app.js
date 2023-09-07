@@ -21,10 +21,10 @@ try {
 }
 
 
-/*app.get('/', (req, res)=>{
-    res.send("hola mundo esto es una prueba segunda prueba tercera prueba")
+app.get('/', (req, res)=>{
+    res.send("hola mundo esto es una prueba")
 
-});*/ 
+});
 
 app.listen(8000, ()=>{
     console.log('Server is running in http://localhost:8000/')
